@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YCCategoryModule_Example' do
+  pod 'YCCategoryModule', :path => '../'
+
+  target 'YCCategoryModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
